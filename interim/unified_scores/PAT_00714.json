@@ -1,0 +1,81 @@
+{
+  "patient_id": "PAT_00714",
+  "timestamp": "2026-06-30T05:32:49.031756+00:00",
+  "final_predictions": {
+    "normal": 0.5349,
+    "mild": 0.3263,
+    "severe": 0.1388
+  },
+  "calibrated_probabilities": {
+    "normal": 0.9525,
+    "mild": 0.0475,
+    "severe": 0.0
+  },
+  "fused_risk_score": 47,
+  "meta_learner_weights": [
+    1.0
+  ],
+  "calibration_params": {
+    "normal": {
+      "method": "isotonic_regression",
+      "x_thresholds": [
+        0.1398,
+        0.1651,
+        0.1749,
+        0.2313,
+        0.4126,
+        "..."
+      ],
+      "y_thresholds": [
+        0.0,
+        0.0,
+        0.2,
+        0.2,
+        0.9524,
+        "..."
+      ],
+      "n_thresholds": 12
+    },
+    "mild": {
+      "method": "isotonic_regression",
+      "x_thresholds": [
+        0.1711,
+        0.2302,
+        0.2306,
+        0.2841,
+        0.2843,
+        "..."
+      ],
+      "y_thresholds": [
+        0.0,
+        0.0,
+        0.0405,
+        0.0405,
+        0.0476,
+        "..."
+      ],
+      "n_thresholds": 13
+    },
+    "severe": {
+      "method": "isotonic_regression",
+      "x_thresholds": [
+        0.0514,
+        0.2202,
+        0.2217,
+        0.2621,
+        0.27,
+        "..."
+      ],
+      "y_thresholds": [
+        0.0,
+        0.0,
+        0.1111,
+        0.1111,
+        0.1429,
+        "..."
+      ],
+      "n_thresholds": 7
+    }
+  },
+  "model_ensemble_version": "v1.0_Intermediate_Fusion"
+}
