@@ -1,0 +1,29 @@
+{
+  "model_name": "DempsterShaferFusionScorer",
+  "version": "v6_final",
+  "architecture": "Constrained Elastic Net Logistic Scorer + Isotonic Calibration + Murphy-Dempster Evidence Fusion",
+  "n_features": 31,
+  "classification_threshold": 0.38,
+  "imbalance_handling": "class-balanced weights in loss function",
+  "threshold": 0.38,
+  "scaler_mean": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "scaler_scale": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}
